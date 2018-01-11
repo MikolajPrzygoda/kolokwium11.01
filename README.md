@@ -1,1 +1,1 @@
-# kolokwium11.01
+Miko³aj Przygoda
