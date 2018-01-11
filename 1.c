@@ -3,7 +3,8 @@
 #include<cstdlib>
 #define default_value 10
 using namespace std;
- 
+
+/* Zmiana nr 1 
 template< class T > class Stack
 {
     public:
@@ -20,6 +21,7 @@ template< class T > class Stack
     int index;
  
 };
+*/
  
 template< class T > Stack<T>::Stack(int x):
     size(x),//ctor

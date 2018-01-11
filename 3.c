@@ -61,6 +61,7 @@ bool isPalindrome( char array[] )
     }   
     char array1[size + 1];
     // Step 2
+	/* Zmiana nr 3
     while ( index < size ) 
     {                     
             while ( (array[index] >= 'A' and array[index] <= 'Z') or
@@ -74,7 +75,8 @@ bool isPalindrome( char array[] )
             index++;
             startingPos = index;
     }
-    array1[count1] = '\0';  
+    array1[count1] = '\0'; 
+	*/	
     //Step 3
     index = 0;
     while ( index <= (count1 - 1)/2 and isPalindrome )

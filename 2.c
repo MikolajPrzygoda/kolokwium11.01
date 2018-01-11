@@ -13,7 +13,7 @@ fprintf(stderr,"%s: %s: %s\n",program_name,cause, (char*) strerror(errno));
 exit(exit_code);
 }
  
- 
+ /* Zmiana nr 2
 int main(int argc, char **argv)
 {
 if(argc != 2)
@@ -22,6 +22,8 @@ printf("Usage: %s <filename>\n",argv[0]);
 exit(EXIT_FAILURE);
 }
 program_name = argv[0];
+*/
+
 /* Permisions for the new file */
 mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
  
