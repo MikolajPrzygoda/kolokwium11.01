@@ -36,7 +36,7 @@ template< class T > bool Stack<T>::isFull()
     else
     return 0;
 }
- 
+/* Zmiana w nowym branch'u
 template< class T > bool Stack<T>::push(T x)
 {
     bool b = 0;
@@ -47,8 +47,7 @@ template< class T > bool Stack<T>::push(T x)
     b = 1;
     }
     return b;
-}
- 
+}*/
 template< class T > bool Stack<T>::isEmpty()
 {
     if( index  == -1 )//is empty
