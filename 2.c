@@ -5,6 +5,8 @@
 #include <sys/types.h>
 #include <errno.h>
  
+ //Zmiana w branchu 'new-branch'
+ 
 char* program_name;
  
 void system_error(char* cause, int exit_code)
